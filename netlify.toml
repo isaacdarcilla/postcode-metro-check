@@ -1,0 +1,8 @@
+[build]
+  # If you're using a separate build step
+  command = "npm install"
+  publish = "."
+
+[[edge_functions]]
+  path = "/api/postcodes/:postcode"
+  function = "postcode-metro-check"
